@@ -1,6 +1,6 @@
 import express from 'express';
 import models from '../../db/index.js';
-const Module = models.Module;
+
 const Author = models.Author;
 const router = express.Router();
 const db = models.pool;
